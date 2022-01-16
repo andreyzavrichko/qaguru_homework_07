@@ -16,7 +16,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class ZipFilesTest {
     @Test
     void zipTest() throws Exception {
-        ZipFile zipFile = new ZipFile("C:\\Users\\Andrey\\IdeaProjects\\qaguru_homework_07\\src\\test\\resources\\ziptest.zip");
+        ZipFile zipFile = new ZipFile("src\\test\\resources\\ziptest.zip");
 
         // Проверка csv файла
         ZipEntry zipCsvEntry = zipFile.getEntry("sampleEcwid.csv");
